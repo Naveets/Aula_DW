@@ -1,0 +1,38 @@
+/* Formato Classico*/
+
+/*button {
+    background-color: transparent;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+ .pos_hover {} */
+
+/* Formato atual */
+
+button {
+    background-color: transparent;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    transition: 0.5s;
+
+
+    &:hover {
+        background-color: blueviolet;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    &:active {
+        transform: translateY(-1px);
+    }
+}

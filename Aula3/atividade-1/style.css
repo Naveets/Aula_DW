@@ -1,0 +1,26 @@
+body {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-size: 5px;
+    text-align: right;
+}
+
+blockquote {
+    font-size: 10px;
+    background-color: gray;
+
+    
+}
+
+img {
+    clip-path: circle();
+    height: 100px;
+}
+
+.imagem_circular {
+    display: flex;
+    justify-content: center;
+
+}

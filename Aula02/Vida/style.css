@@ -1,0 +1,23 @@
+body{
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+    
+}
+svg {
+    height: 25px;
+
+}
+ h2{
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+
+

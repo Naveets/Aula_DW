@@ -1,0 +1,21 @@
+#titulo_principal {
+    color: yellowgreen;
+}
+
+/*CHAVE : VALOR*/
+h2,
+h1 {
+    background-color: black;
+}
+
+.botao {
+    background-color: black;
+}
+
+.perigo {
+    color: red;
+}
+
+.confianca {
+    color: aqua;
+}
