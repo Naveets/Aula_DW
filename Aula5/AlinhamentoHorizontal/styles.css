@@ -1,0 +1,17 @@
+:root{
+    --goiaba: #eaaa9b
+}
+
+.box{
+    width: 200px;
+    background-color: var(--goiaba);
+    height: 10px;
+    margin-bottom: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 5px
+    ;
+}
